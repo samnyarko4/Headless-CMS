@@ -7,8 +7,7 @@
 
 
 
-        <!-- <template v-for="block in story.body" :key="block._uid">
-        <Herobanner v-if="block.component === 'HeroBanner'" :blok="block" />
+        <!--obanner v-if="block.component === 'HeroBanner'" :blok="block" />
         <Teaser v-if="block.component === 'teaser'" :blok="block" />
        
 </template> -->

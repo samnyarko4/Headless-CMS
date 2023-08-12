@@ -14,6 +14,6 @@
     "nuxt": "^3.6.5"
   },
   "dependencies": {
-    "@storyblok/nuxt": "^5.6.1"
+    "@storyblok/nuxt": "^5.6.2"
   }
 }

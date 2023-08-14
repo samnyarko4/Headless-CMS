@@ -1,0 +1,1 @@
+export { default } from "file:///C:/Users/Lookerz/Documents/SummertSchool23/webdev-IV/headlessCMS/Headless-CMS/headless-cms/node_modules/@nuxt/vite-builder/dist/runtime/client.manifest.mjs"

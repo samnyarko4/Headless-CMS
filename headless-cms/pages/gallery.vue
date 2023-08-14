@@ -1,10 +1,15 @@
 <template> 
-<div>
 
+
+<div class="container">
+    <Header />
+    <template v-for="block in story.body" :key="block._uid">
     
+        <aboutTeaser v-if="block.component === 'teaser'" :blok="block"  />
+
+    </template>
 </div>
-<Header />
-<h1>HELLO</h1>
+
 </template>
 
 <script>
@@ -15,7 +20,7 @@
           }
       },
       created: function() {
-          fetch('https://api-us.storyblok.com/v2/cdn/stories/gallery?version=draft&token=QpDNTlhZ3K4b5jO9AmD6Zwtt&cv=1691979315')
+          fetch('https://api-us.storyblok.com/v2/cdn/stories/gallery?version=draft&token=QpDNTlhZ3K4b5jO9AmD6Zwtt&cv=1691981704')
           .then(resp => resp.json())
           .then(data => this.story = data.story.content)
       }

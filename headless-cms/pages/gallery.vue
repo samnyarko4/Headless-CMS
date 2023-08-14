@@ -20,7 +20,7 @@
           }
       },
       created: function() {
-          fetch('https://api-us.storyblok.com/v2/cdn/stories/gallery?version=draft&token=QpDNTlhZ3K4b5jO9AmD6Zwtt&cv=1691981704')
+          fetch('https://api-us.storyblok.com/v2/cdn/stories/home?cv=1691982478&token=QpDNTlhZ3K4b5jO9AmD6Zwtt&version=published')
           .then(resp => resp.json())
           .then(data => this.story = data.story.content)
       }
